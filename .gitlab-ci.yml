@@ -9,6 +9,6 @@ pages:
     - R -e "setwd('blog'); blogdown::build_site()"
   artifacts:
     paths:
-      - blog/public
+      - public
   only:
     - master
