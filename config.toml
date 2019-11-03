@@ -1,4 +1,4 @@
-baseurl = ""https://raoofphysics.gitlab.io/blog-test/""
+baseurl = "https://raoofphysics.gitlab.io/blog-test/"
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-lithium"
