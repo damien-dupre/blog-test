@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    rstudio:
+        build: .
+        image: raoofphysics/blog-test # You can delete this image once you're done with Docker
+        container_name: raoofphysics_blog-test # This container gets deleted when you run `$ docker-compose down`
+        env_file:
+            - .env
+        ports:
+            - 8787:8787
+        volumes:
+            - .:/home/rstudio
