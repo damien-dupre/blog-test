@@ -1,4 +1,4 @@
-image rocker/geospatial:latest
+image: rocker/geospatial:latest
 
 before_script:
   - R -e "install.packages('blogdown',repos='http://cran.rstudio.com')"
