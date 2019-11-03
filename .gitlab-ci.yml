@@ -6,8 +6,7 @@ before_script:
 
 pages:
   script:
-    - R -e "setwd('blog')"
-    - R -e "blogdown::build_site()"
+    - R -e "setwd('blog'); blogdown::build_site()"
   artifacts:
     paths:
       - blog/public
