@@ -1,10 +1,11 @@
-baseurl = "https://raoofphysics.gitlab.io/blog-test/"
+baseurl = "/"
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+relativeurls = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
